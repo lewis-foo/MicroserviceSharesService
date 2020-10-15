@@ -1,0 +1,26 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="shares">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="share" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="company_name"/>
+                            <xs:element type="xs:string" name="company_symbol"/>
+                            <xs:element type="xs:float" name="share_amount"/>
+                            <xs:element name="share_price">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="currency"/>
+                                        <xs:element type="xs:float" name="value"/>
+                                        <xs:element type="xs:string" name="last_update"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

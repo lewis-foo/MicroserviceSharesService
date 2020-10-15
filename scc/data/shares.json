@@ -1,0 +1,74 @@
+{
+  "shares": [
+    {
+      "company_name": "International Business Machines Corp.",
+      "company_symbol": "IBM",
+      "share_amount": 15284,
+      "share_price": {
+        "currency": "BWP",
+        "value": 915.3532284246127,
+        "last_update": 1579294864397
+      }
+    },
+    {
+      "company_name": "Microsoft Corp.",
+      "company_symbol": "MSFT",
+      "share_amount": 99995,
+      "share_price": {
+        "currency": "BWP",
+        "value": 1105.8891220428955,
+        "last_update": 1579294800628
+      }
+    },
+    {
+      "company_name": "Amazon.com, Inc.",
+      "company_symbol": "AMZN",
+      "share_amount": 3323725,
+      "share_price": {
+        "currency": "BWP",
+        "value": 12340.95489919705,
+        "last_update": 1579294800264
+      }
+    },
+    {
+      "company_name": "Spotify Technology SA",
+      "company_symbol": "SPOT",
+      "share_amount": 1046932,
+      "share_price": {
+        "currency": "BWP",
+        "value": 981.7330482575886,
+        "last_update": 1579294917062
+      }
+    },
+    {
+      "company_name": "Apple, Inc.",
+      "company_symbol": "AAPL",
+      "share_amount": 31043505,
+      "share_price": {
+        "currency": "BWP",
+        "value": 2109.3958101061157,
+        "last_update": 1579294800220
+      }
+    },
+    {
+      "company_name": "NIKE, Inc.",
+      "company_symbol": "NKE",
+      "share_amount": 6068705,
+      "share_price": {
+        "currency": "BWP",
+        "value": 692.1237844598802,
+        "last_update": 1579640451627
+      }
+    },
+    {
+      "company_name": "Tractor Supply Co.",
+      "company_symbol": "TSCO",
+      "share_amount": 1267388,
+      "share_price": {
+        "currency": "usd",
+        "value": 93.64,
+        "last_update": 1579640400389
+      }
+    }
+  ]
+}
